@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa Vagas de Emprego</title>
+</head>
+<body>
+    <h1>Pesquisar Vagas de Emprego</h1>
+
+    <form method="GET" action="#">
+        <label for="nomeVaga">Nome da vaga:</label>
+        <input type="text" id="nomeVaga" name="nomeVaga" placeholder="Ex: Desenvolvedor Front-end"><br><br>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" placeholder="Ex: São Paulo"><br><br>
+
+        <label for="tipoContratacao">Tipo de contratação:</label>
+        <select id="tipoContratacao" name="tipoContratacao">
+            <option value="clt">CLT</option>
+            <option value="pj">PJ</option>
+            <option value="estagio">Estágio</option>
+            <option value="temporario">Temporário</option>
+        </select><br><br>
+
+        <button type="submit">Pesquisar</button>
+    </form>
+</body>
+</html>
